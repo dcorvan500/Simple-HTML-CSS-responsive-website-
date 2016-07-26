@@ -18,13 +18,7 @@ two column layout
 Page: Portfolio
 ********************/
 
-#gallery li {
-	width: 28.3333%;
-}
- 
- #gallery li:nth-child(4n) {
- 	clear:left;
- }
+
 
 
 /*******************
@@ -38,6 +32,13 @@ Page: About
 @media screen and (min-width:660px)
 
 {
+#gallery li {
+	width: 28.3333%;
+}
+ 
+ #gallery li:nth-child(4n) {
+ 	clear:left;
+ }
 
 
 /*******************
@@ -74,6 +75,5 @@ header {
 	border-bottom: 5px solid #599a68;
 	margin-bottom:60px;
 }
-
-
 }
+
